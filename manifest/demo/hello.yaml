@@ -11,7 +11,7 @@ spec:
         autoscaling.knative.dev/target-burst-capacity: "-1"
         autoscaling.knative.dev/window: "12s"
         # DO NOT set the following two lines
-        # autoscaling.knative.dev/min-scale: "3"
+        autoscaling.knative.dev/min-scale: "1"
         # autoscaling.knative.dev/max-scale: "3"
         autoscaling.knative.dev/target: "10"
     spec:
